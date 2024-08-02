@@ -1,0 +1,44 @@
+[
+    {
+        "product_name": "RAPTOR",
+         "drivetrain": "105 DI2 12V",
+         "categories": "ROAD RANGE, RAPTOR",
+         "color": "MIDNIGHT BLUE",
+         "price": "3 999" 
+    },
+    {
+        "product_name": "FALCON",
+         "drivetrain": "105 DI2 12V",
+         "categories": "ROAD RANGE, RAPTOR",
+         "color": "MIDNIGHT BLUE",
+         "price": "3 999" 
+    },
+    {
+        "product_name": "HAWK",
+         "drivetrain": "105 DI2 12V",
+         "categories": "ROAD RANGE, RAPTOR",
+         "color": "MIDNIGHT BLUE",
+         "price": "3 999" 
+    },
+    {
+        "product_name": "EAGLE",
+         "drivetrain": "105 DI2 12V",
+         "categories": "ROAD RANGE, RAPTOR",
+         "color": "MIDNIGHT BLUE",
+         "price": "3 999" 
+    },
+    {
+        "product_name": "VULTURE",
+         "drivetrain": "105 DI2 12V",
+         "categories": "ROAD RANGE, RAPTOR",
+         "color": "MIDNIGHT BLUE",
+         "price": "3 999" 
+    },
+    {
+        "product_name": "TREX",
+         "drivetrain": "105 DI2 12V",
+         "categories": "ROAD RANGE, RAPTOR",
+         "color": "MIDNIGHT BLUE",
+         "price": "3 999" 
+    }
+]

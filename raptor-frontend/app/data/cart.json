@@ -1,0 +1,18 @@
+[
+    {
+        "product_id": 1,
+        "product_name": "RAPTOR",
+        "size": "XS",
+        "quantity": "1",
+        "price": 3999,
+        "color": "black"
+    },
+    {
+        "product_id": 2,
+        "product_name": "FALCON",
+        "size": "XS",
+        "quantity": "1",
+        "price": 3999,
+        "color": "black"
+    }
+]

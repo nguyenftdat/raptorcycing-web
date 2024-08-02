@@ -1,0 +1,72 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+/* Additional styles */
+@import "additional-styles/utility-patterns.css";
+@import "additional-styles/range-slider.css";
+@import "additional-styles/toggle-switch.css";
+@import "additional-styles/theme.css";
+
+@import "tailwindcss/utilities";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/* Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive */
+@layer utilities {
+  .rtl {
+    direction: rtl;
+  }
+}
+
+.material-symbols-outlined {
+  font-size: 20px !important;
+}
+
+
+/* @layer base {
+  @font-face {
+    font-family: "Morgant";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/fonts/Morganite/Morganite-Regular.ttf") format('ttf');
+  }
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/fonts/Poppins/Poppins-Regular.ttf") format("ttf");
+  }
+
+} */
+
+@font-face {
+  font-family: "Morgant";
+  src: url("/fonts/morgant.ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-regular";
+  src: url("/fonts/Poppins/Poppins-Regular.ttf");
+}
+
+/* See Alpine.js: https://github.com/alpinejs/alpine#x-cloak */
+[x-cloak=""] {
+  display: none;
+}
+
+/* styles.css */
+.button-container {
+  display: flex;
+  flex-direction: row; /* Đảm bảo các nút nằm trên cùng một dòng */
+  gap: 8px; /* Khoảng cách giữa các nút */
+}
+
+.button-container button {
+  white-space: nowrap; /* Ngăn không cho chữ xuống dòng */
+}
